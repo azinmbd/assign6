@@ -1,0 +1,662 @@
+[03-Mar-2024 02:39:36 Europe/Berlin] PHP Warning:  require_once(inc/Entities/Page.class.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\assign6\page1.php on line 9
+[03-Mar-2024 02:39:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'inc/Entities/Page.class.php' (include_path='\xampp\php\PEAR') in C:\xampp\htdocs\assign6\page1.php:9
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 9
+[03-Mar-2024 03:44:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM b...')
+#1 C:\xampp\htdocs\assign6\page1.php(35): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 03:46:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM B...')
+#1 C:\xampp\htdocs\assign6\page1.php(35): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 03:46:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM B...')
+#1 C:\xampp\htdocs\assign6\page1.php(35): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 03:47:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM b...')
+#1 C:\xampp\htdocs\assign6\page1.php(35): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 03:56:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM b...')
+#1 C:\xampp\htdocs\assign6\page1.php(35): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 04:30:23 Europe/Berlin] PHP Warning:  Undefined variable $isbn in C:\xampp\htdocs\assign6\page1.php on line 24
+[03-Mar-2024 04:30:23 Europe/Berlin] PHP Warning:  Undefined variable $title in C:\xampp\htdocs\assign6\page1.php on line 24
+[03-Mar-2024 04:30:23 Europe/Berlin] PHP Warning:  Undefined variable $author in C:\xampp\htdocs\assign6\page1.php on line 24
+[03-Mar-2024 04:30:23 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\assign6\page1.php on line 24
+[03-Mar-2024 04:30:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM b...')
+#1 C:\xampp\htdocs\assign6\page1.php(78): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 04:43:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:55
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(56): PDOAgent->query('SELECT * FROM b...')
+#1 C:\xampp\htdocs\assign6\page1.php(35): BooksDAO::getBooks()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 55
+[03-Mar-2024 04:46:53 Europe/Berlin] PHP Fatal error:  Class "books" not found in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 102
+[03-Mar-2024 05:16:30 Europe/Berlin] PHP Fatal error:  Class "books" not found in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 102
+[03-Mar-2024 05:20:25 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 36
+[03-Mar-2024 05:20:25 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: BooksDAO::deleteBook(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 36 and defined in C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php:62
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(36): BooksDAO::deleteBook(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php on line 62
+[03-Mar-2024 05:21:11 Europe/Berlin] PHP Warning:  Undefined array key "ISBN" in C:\xampp\htdocs\assign6\page1.php on line 36
+[03-Mar-2024 05:21:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: BooksDAO::deleteBook(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 36 and defined in C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php:62
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(36): BooksDAO::deleteBook(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php on line 62
+[03-Mar-2024 05:22:46 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 36
+[03-Mar-2024 05:22:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: BooksDAO::deleteBook(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 36 and defined in C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php:62
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(36): BooksDAO::deleteBook(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php on line 62
+[03-Mar-2024 05:28:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bindValue() on null in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:75
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(66): PDOAgent->bind(':isbn', '0-672-31697-8')
+#1 C:\xampp\htdocs\assign6\page1.php(37): BooksDAO::deleteBook('0-672-31697-8')
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 75
+[03-Mar-2024 06:00:24 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 27
+[03-Mar-2024 06:00:24 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 27 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(27): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:00:32 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 27
+[03-Mar-2024 06:00:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 27 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(27): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:01:06 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 27
+[03-Mar-2024 06:01:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 27 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(27): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:02:27 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\assign6\page1.php on line 28
+[03-Mar-2024 06:02:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setTitle(): Argument #1 ($title) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 28 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:53
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(28): Book->setTitle(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 53
+[03-Mar-2024 06:04:01 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 27
+[03-Mar-2024 06:04:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 27 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(27): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:09:03 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setPrice(): Argument #1 ($price) must be of type float, string given, called in C:\xampp\htdocs\assign6\page1.php on line 34 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:57
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(34): Book->setPrice('')
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 57
+[03-Mar-2024 06:12:21 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 27
+[03-Mar-2024 06:12:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 27 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(27): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:15:16 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 27
+[03-Mar-2024 06:15:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 27 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(27): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:22:17 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 59
+[03-Mar-2024 06:22:17 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 59
+[03-Mar-2024 06:22:17 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 59
+[03-Mar-2024 06:54:30 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\page1.php on line 28
+[03-Mar-2024 06:54:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setISBN(): Argument #1 ($isbn) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 28 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:45
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(28): Book->setISBN(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 45
+[03-Mar-2024 06:56:23 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Book::setPrice(): Argument #1 ($price) must be of type float, string given, called in C:\xampp\htdocs\assign6\page1.php on line 36 and defined in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php:57
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(36): Book->setPrice('')
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Entities\Book.class.php on line 57
+[03-Mar-2024 07:11:59 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 59
+[03-Mar-2024 07:12:14 Europe/Berlin] PHP Warning:  Undefined variable $u in C:\xampp\htdocs\assign6\page1.php on line 90
+[03-Mar-2024 07:12:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Page::showLogoutForm(): Argument #1 ($u) must be of type User, null given, called in C:\xampp\htdocs\assign6\page1.php on line 90 and defined in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php:159
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(90): Page::showLogoutForm(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 159
+[03-Mar-2024 07:14:55 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 59
+[03-Mar-2024 07:16:07 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-7' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(60): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 07:27:37 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Page::showErrorNotifications(), 0 passed in C:\xampp\htdocs\assign6\page1.php on line 86 and exactly 1 expected in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php:116
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(86): Page::showErrorNotifications()
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 116
+[03-Mar-2024 07:32:19 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 11
+[03-Mar-2024 07:32:19 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 14
+[03-Mar-2024 07:33:13 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 11
+[03-Mar-2024 07:33:13 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 14
+[03-Mar-2024 07:34:55 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 11
+[03-Mar-2024 07:35:02 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 14
+[03-Mar-2024 07:43:08 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 14
+[03-Mar-2024 07:43:08 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: filter_input(): Argument #3 ($filter) must be of type int, array given in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php:24
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php(24): filter_input(0, '272', Array)
+#1 C:\xampp\htdocs\assign6\page1.php(25): Validate::validateForm()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 24
+[03-Mar-2024 07:44:50 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 14
+[03-Mar-2024 07:44:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(63): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 07:45:35 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 14
+[03-Mar-2024 07:45:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(63): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 07:46:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(63): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 07:46:39 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 11
+[03-Mar-2024 07:46:39 Europe/Berlin] PHP Warning:  Undefined array key "isbn" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 16
+[03-Mar-2024 07:59:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(63): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 07:59:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-3169' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(63): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 07:59:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-316' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(63): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[03-Mar-2024 08:09:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-3164545' for key 'PRIMARY' in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 C:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 C:\xampp\htdocs\assign6\page1.php(65): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[04-Mar-2024 05:52:44 Europe/Berlin] PHP Warning:  Undefined variable $setUserName in C:\xampp\htdocs\assign6\page2.php on line 28
+[04-Mar-2024 06:34:07 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\assign6\page2.php on line 24
+[04-Mar-2024 06:34:07 Europe/Berlin] PHP Warning:  Undefined variable $Array in C:\xampp\htdocs\assign6\page2.php on line 24
+[04-Mar-2024 06:34:07 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\assign6\page2.php on line 24
+[04-Mar-2024 06:34:07 Europe/Berlin] PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\assign6\page2.php on line 28
+[04-Mar-2024 06:35:58 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:35:58 Europe/Berlin] PHP Warning:  Undefined variable $Array in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:35:58 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:35:58 Europe/Berlin] PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\assign6\page2.php on line 29
+[04-Mar-2024 06:43:39 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:43:39 Europe/Berlin] PHP Warning:  Undefined variable $Array in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:43:39 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:46:25 Europe/Berlin] PHP Warning:  Array to string conversion in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:46:25 Europe/Berlin] PHP Warning:  Undefined variable $Array in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 06:46:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\assign6\page2.php on line 25
+[04-Mar-2024 07:25:57 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 58
+[04-Mar-2024 07:25:57 Europe/Berlin] PHP Warning:  Undefined array key "password2" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 58
+[04-Mar-2024 07:25:57 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 60
+[04-Mar-2024 07:27:08 Europe/Berlin] PHP Warning:  Undefined array key "password" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 60
+[05-Mar-2024 03:22:17 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 46
+[05-Mar-2024 03:22:34 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 46
+[05-Mar-2024 03:24:46 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 46
+[05-Mar-2024 03:24:56 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 46
+[06-Mar-2024 21:52:29 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:05:49 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:06:48 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:11:51 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:17:39 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:22:00 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:26:56 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:57:27 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 22:59:30 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 178
+[06-Mar-2024 23:29:01 Europe/Berlin] PHP Warning:  Undefined array key "action" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 101
+[06-Mar-2024 23:29:59 Europe/Berlin] PHP Warning:  Undefined array key "action" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 101
+[06-Mar-2024 23:30:01 Europe/Berlin] PHP Warning:  Undefined array key "action" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 101
+[06-Mar-2024 23:30:01 Europe/Berlin] PHP Warning:  Undefined array key "action" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 101
+[06-Mar-2024 23:30:02 Europe/Berlin] PHP Warning:  Undefined array key "action" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 101
+[07-Mar-2024 01:03:38 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 137
+[07-Mar-2024 01:04:02 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 137
+[07-Mar-2024 01:13:36 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 137
+[07-Mar-2024 01:14:01 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 137
+[07-Mar-2024 01:23:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "function" or "const" in C:\xampp\htdocs\assign6\inc\Utility\Validate.class.php on line 133
+[07-Mar-2024 01:54:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 49
+[07-Mar-2024 01:54:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 49
+[07-Mar-2024 01:54:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 49
+[07-Mar-2024 01:58:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 49
+[07-Mar-2024 02:38:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:41:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:41:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:42:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:43:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:44:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:44:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:52
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 52
+[07-Mar-2024 02:52:11 Europe/Berlin] PHP Warning:  Undefined property: User::$12345 in C:\xampp\htdocs\assign6\page1.php on line 53
+[07-Mar-2024 02:59:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:50
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 50
+[07-Mar-2024 03:00:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:50
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 50
+[07-Mar-2024 03:00:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:50
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 50
+[07-Mar-2024 04:46:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot use object of type User as array in C:\xampp\htdocs\assign6\page1.php:51
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 51
+[07-Mar-2024 18:14:19 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\assign6\page1.php on line 49
+[07-Mar-2024 18:14:19 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 51
+[07-Mar-2024 18:14:19 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 67
+[07-Mar-2024 18:14:19 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 67
+[07-Mar-2024 18:14:19 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 67
+[07-Mar-2024 18:14:19 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 80
+[07-Mar-2024 18:17:37 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\assign6\page1.php on line 50
+[07-Mar-2024 18:17:37 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 69
+[07-Mar-2024 18:17:37 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 69
+[07-Mar-2024 18:17:37 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 69
+[07-Mar-2024 18:17:37 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 82
+[07-Mar-2024 18:19:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\assign6\page1.php on line 50
+[07-Mar-2024 18:26:35 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:26:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(138): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:26:40 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:26:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(138): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:26:42 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:26:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(138): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:28:40 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:28:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(138): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:31:53 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:31:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(140): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:38:16 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:38:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(140): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:38:18 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 48
+[07-Mar-2024 18:38:18 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 49 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(49): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(140): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:39:40 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 70
+[07-Mar-2024 18:39:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 71 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(71): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(140): Page::showBookList(Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:40:09 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 278
+[07-Mar-2024 18:40:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 279 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\inc\Utility\Page.class.php(279): UsersDAO::getUser(NULL)
+#1 C:\xampp\htdocs\assign6\page1.php(143): Page::showLogoutForm()
+#2 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:47:46 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 112
+[07-Mar-2024 18:48:29 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\assign6\page1.php on line 112
+[07-Mar-2024 18:48:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on null in C:\xampp\htdocs\assign6\page1.php:112
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 112
+[07-Mar-2024 18:49:01 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\assign6\page1.php on line 112
+[07-Mar-2024 18:49:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in C:\xampp\htdocs\assign6\page1.php on line 113 and defined in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 C:\xampp\htdocs\assign6\page1.php(113): UsersDAO::getUser(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[07-Mar-2024 18:50:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on bool in C:\xampp\htdocs\assign6\page1.php:114
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 114
+[07-Mar-2024 18:53:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on bool in C:\xampp\htdocs\assign6\page1.php:114
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 114
+[07-Mar-2024 18:55:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on bool in C:\xampp\htdocs\assign6\page1.php:77
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 77
+[07-Mar-2024 19:00:45 Europe/Berlin] PHP Warning:  Undefined array key "Privilege" in C:\xampp\htdocs\assign6\page1.php on line 114
+[07-Mar-2024 19:00:57 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 114
+[07-Mar-2024 19:02:34 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 116
+[07-Mar-2024 19:04:52 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in C:\xampp\htdocs\assign6\page1.php on line 117
+[07-Mar-2024 19:05:25 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\assign6\page1.php on line 116
+[07-Mar-2024 19:05:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on null in C:\xampp\htdocs\assign6\page1.php:116
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 116
+[07-Mar-2024 19:05:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on bool in C:\xampp\htdocs\assign6\page1.php:118
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assign6\page1.php on line 118
+[07-Mar-2024 21:36:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php:285
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(53): Page::showLogoutForm()
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 285
+[07-Mar-2024 21:38:29 Europe/Berlin] PHP Warning:  Undefined variable $user in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 284
+[07-Mar-2024 21:42:32 Europe/Berlin] PHP Warning:  Undefined variable $user in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 280
+[07-Mar-2024 21:42:57 Europe/Berlin] PHP Warning:  Undefined variable $user in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 280
+[07-Mar-2024 21:45:31 Europe/Berlin] PHP Warning:  Undefined variable $user in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 280
+[07-Mar-2024 21:46:36 Europe/Berlin] PHP Warning:  Undefined variable $user in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 280
+[07-Mar-2024 21:47:36 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Page::showLogoutForm(), 0 passed in D:\xampp\htdocs\assign6\page1.php on line 53 and exactly 1 expected in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php:272
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(53): Page::showLogoutForm()
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 272
+[07-Mar-2024 21:48:14 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Page::showLogoutForm(), 0 passed in D:\xampp\htdocs\assign6\page1.php on line 53 and exactly 1 expected in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php:272
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(53): Page::showLogoutForm()
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 272
+[07-Mar-2024 22:00:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Page::showLoginForm() in D:\xampp\htdocs\assign6\page1.php:67
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\assign6\page1.php on line 67
+[08-Mar-2024 00:17:04 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 104
+[08-Mar-2024 00:17:21 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 104
+[08-Mar-2024 00:17:23 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 104
+[08-Mar-2024 00:42:42 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:42:43 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:42:44 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:42:44 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:42:45 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:44:12 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:44:22 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:44:23 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:45:52 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:45:54 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:46:20 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:46:21 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:46:22 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:46:23 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:46:23 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:47:03 Europe/Berlin] PHP Warning:  Undefined variable $isbnValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 195
+[08-Mar-2024 00:47:03 Europe/Berlin] PHP Warning:  Undefined variable $titleValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 199
+[08-Mar-2024 00:47:03 Europe/Berlin] PHP Warning:  Undefined variable $authorValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 204
+[08-Mar-2024 00:47:03 Europe/Berlin] PHP Warning:  Undefined variable $priceValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 208
+[08-Mar-2024 00:47:19 Europe/Berlin] PHP Warning:  Undefined variable $isbnValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 185
+[08-Mar-2024 00:47:19 Europe/Berlin] PHP Warning:  Undefined variable $titleValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 189
+[08-Mar-2024 00:47:19 Europe/Berlin] PHP Warning:  Undefined variable $authorValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 194
+[08-Mar-2024 00:47:19 Europe/Berlin] PHP Warning:  Undefined variable $priceValue in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 198
+[08-Mar-2024 00:50:41 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:50:43 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 00:50:43 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 37
+[08-Mar-2024 01:02:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(52): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[08-Mar-2024 01:11:26 Europe/Berlin] PHP Warning:  Undefined variable $error in D:\xampp\htdocs\assign6\page1.php on line 30
+[08-Mar-2024 01:28:27 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:28:48 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:28:49 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:31:46 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:32:05 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:35:26 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:35:30 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:35:31 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:35:32 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:35:55 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 140
+[08-Mar-2024 01:36:30 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 141
+[08-Mar-2024 01:36:36 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 141
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Warning:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(57): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(28): BooksDAO::getBooks()
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php on line 57
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:39:40 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\assign6\page1.php on line 21
+[08-Mar-2024 01:42:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method User::getFgetFullName() in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php:145
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(165): Page::showLogoutForm(Object(User))
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 145
+[08-Mar-2024 01:43:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method User::getFgetFullName() in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php:145
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(165): Page::showLogoutForm(Object(User))
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 145
+[08-Mar-2024 01:43:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method User::getFgetFullName() in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php:145
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(165): Page::showLogoutForm(Object(User))
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\Page.class.php on line 145
+[08-Mar-2024 01:49:35 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 164
+[08-Mar-2024 01:49:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in D:\xampp\htdocs\assign6\page1.php on line 164 and defined in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(164): UsersDAO::getUser(NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[08-Mar-2024 01:50:46 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 141
+[08-Mar-2024 01:50:46 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 164
+[08-Mar-2024 01:50:46 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in D:\xampp\htdocs\assign6\page1.php on line 164 and defined in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(164): UsersDAO::getUser(NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[08-Mar-2024 01:51:06 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 141
+[08-Mar-2024 01:51:06 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 164
+[08-Mar-2024 01:51:06 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in D:\xampp\htdocs\assign6\page1.php on line 164 and defined in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(164): UsersDAO::getUser(NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[08-Mar-2024 02:11:44 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:11:56 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:12:04 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:12:06 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:12:19 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:12:46 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:13:00 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:14:36 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:15:06 Europe/Berlin] PHP Warning:  Undefined variable $user in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:15:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPrivilege() on null in D:\xampp\htdocs\assign6\page1.php:134
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:15:31 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:15:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in D:\xampp\htdocs\assign6\page1.php on line 134 and defined in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(134): UsersDAO::getUser(NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[08-Mar-2024 02:15:56 Europe/Berlin] PHP Warning:  Undefined variable $username in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:15:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: UsersDAO::getUser(): Argument #1 ($username) must be of type string, null given, called in D:\xampp\htdocs\assign6\page1.php on line 134 and defined in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php:18
+Stack trace:
+#0 D:\xampp\htdocs\assign6\page1.php(134): UsersDAO::getUser(NULL)
+#1 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\UsersDAO.class.php on line 18
+[08-Mar-2024 02:16:15 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 134
+[08-Mar-2024 02:16:15 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 135
+[08-Mar-2024 02:17:43 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 135
+[08-Mar-2024 02:17:43 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 136
+[08-Mar-2024 02:17:46 Europe/Berlin] PHP Warning:  Undefined array key "privilege" in D:\xampp\htdocs\assign6\page1.php on line 135
+[09-Mar-2024 01:36:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-9' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 01:40:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-11111-3' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:33:04 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-11111-3' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:33:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-11111-3' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:40:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-9' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:40:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-11111-3' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:41:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-9' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:41:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-9' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:42:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-0' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81
+[09-Mar-2024 02:42:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0-672-31697-0' for key 'PRIMARY' in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php:81
+Stack trace:
+#0 D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php(81): PDOStatement->execute()
+#1 D:\xampp\htdocs\assign6\inc\Utility\BooksDAO.class.php(38): PDOAgent->execute()
+#2 D:\xampp\htdocs\assign6\page1.php(67): BooksDAO::createBook(Object(Book))
+#3 {main}
+  thrown in D:\xampp\htdocs\assign6\inc\Utility\PDOWrapper.class.php on line 81

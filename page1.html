@@ -1,0 +1,145 @@
+<!-- Start the page 'header' -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bambang">   
+        <link href="css/styles.css" rel="stylesheet">     
+    </head>
+    <body>
+        <header>
+            <h1>There should be a heading</h1>
+        </header>
+        <article>
+            <!-- Start the page's show data form -->
+            <section class="main"> 
+                <!-- The page's error display -->
+                <div class="error">
+                    <ul>
+                        <li>Error 1</li>
+                        <li>Error 2</li>
+                        <li>Error 3</li>
+                    </ul>
+                </div>   
+                <div class="data">
+                    <h2>Current Data</h2>
+                    <table>
+                        <thead><tr>
+                            <th class="table">ISBN</th>                        
+                            <th class="table">Title</th>
+                            <th class="table">Author</th>
+                            <th class="table">Price</th>
+                            <th class="table">Delete</th>                        
+                        </tr></thead>
+                        <tbody class="oddRow"><tr>
+                            <td class="table">0-672-31697-8</td>                        
+                            <td class="table">Java 2 for Professional Developers</td>
+                            <td class="table">Michael Morgan</td>
+                            <td class="table">34.99</td>
+                            <td><span class="delete">Delete</span></td>
+                        </tr></tbody>
+                        <tbody class="evenRow"><tr>
+                            <td class="table">0-672-31745-1</td>                        
+                            <td class="table">Installing Debian GNU/Linux</td>
+                            <td class="table">Thomas Down</td>
+                            <td class="table">24.99</td>
+                            <td><span class="delete">Delete</span></td>
+                        </tr></tbody>
+                        <tbody class="oddRow"><tr>
+                            <td class="table">0-672-31509-2</td>                        
+                            <td class="table">Teach Yourself GIMP in 24 Hours</td>
+                            <td class="table">Pruitt, et al.</td>
+                            <td class="table">24.99</td>
+                            <td><span class="delete">Delete</span></td>
+                        </tr></tbody>
+                        <tbody class="evenRow"><tr>
+                            <td class="table">0-672-31769-9</td>                        
+                            <td class="table">Caldera OpenLinux System Administration Unleashed</td>
+                            <td class="table">Thomas Schenk</td>
+                            <td class="table">49.99</td>
+                            <td><span class="delete">Delete</span></td>
+                        </tr></tbody>
+                    </table>
+                </div>            
+            </section>
+            
+            <!-- Start login/logout section -->
+            <section class="side">
+                <div class="form logout">
+                    <form action="" method="post">
+                        <table>
+                            <tr>
+                                <td rowspan="2" class="img"><img src="images/profile1.png"></td>
+                                <td >Welcome <b>User</b></td>
+                            </tr>                        
+                            <tr>                            
+                                <td>Depending on your privilege, you can see detail or add/delete new book</td>
+                            </tr>    
+                                                                                                
+                        </table>
+                        <input type="hidden" name="action" value="logout">
+                        <input type="submit" value="Logout">
+                    </form>
+                </div>
+                
+                <div class="form login">
+                <h3>Login</h3>
+                <form action="" method="post">
+                    <table>
+                        <tr>
+                            <td class="table">Username</td>
+                            <td class="table"><input type="text" name="username" placeholder="Your username"></td>
+                        </tr>                        
+                        <tr>
+                            <td class="table">Password</td>
+                            <td class="table"><input type="password" name="password" placeholder="Your Password"></td>
+                        </tr>    
+                        <tr>
+                            <td colspan="2" class="text">
+                                Do not have an account? Please <strong> <a href="registration.html">Register here</strong></a>
+                            </td>
+                        </tr>                                                                    
+                    </table>
+                    <input type="hidden" name="action" value="login">
+                    <input type="submit" value="Login">
+                </form>
+                </div>
+
+                <!-- Start the page's add entry form -->
+                <div class="form add">
+                    <h3>Add a New Book</h3>
+                    <form action="" method="post">
+                        <table>
+                            <tr>
+                                <td class="table">ISBN</td>
+                                <td class="table"><input type="text" name="isbn" placeholder="X-XXX-XXXXX-X"></td>
+                            </tr>                        
+                            <tr>
+                                <td class="table">Title</td>
+                                <td class="table"><input type="text" name="title" placeholder="Book Title"></td>
+                            </tr>                                                
+                            <tr>
+                                <td class="table">Author</td>
+                                <td class="table">
+                                    <input type="text" name="author" placeholder="Book Author">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table">Price</td>
+                                <td class="table"><input type="text" name="price" placeholder="Book Price between 1 to 1000"></td>
+                            </tr>
+                        </table>
+                        <input type="hidden" name="action" value="create">
+                        <input type="submit" value="Add New Book">
+                    </form>
+                </div>
+            </section>            
+
+            
+            
+<!-- Start the page's footer -->            
+        </article>
+    </body>
+
+</html>

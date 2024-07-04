@@ -1,0 +1,87 @@
+<!-- Start the page 'header' -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bambang">   
+        <link href="css/styles.css" rel="stylesheet">     
+    </head>
+    <body>
+        <header>
+            <h1>There should be a heading</h1>
+        </header>
+        <article>
+            
+            <section class="main">
+                <!-- start of the registration form-->
+                <div class="form add">   
+                    <h2>Registration</h2>        
+                <form action="" method="post">
+                    <table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p>Do you have an account? <strong><a href="main_page.html">Login here</a> </strong></p></td>
+                    </tr>
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td><input type="text" name="username" placeholder="Enter username with no whitespace" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" name="password" placeholder="Password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password confirm</label></td>
+                        <td><input type="password" name="password2" placeholder="Password confirm" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fullname">Full name</label></td>
+                        <td><input type="text" name="fullname" placeholder="Full Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="image">Profile Picture</label> </td>
+                        <td><span>
+                            <input type="radio" name="picture" value="profile1"><img src="images/profile1.png">
+                            <input type="radio" name="picture" value="profile2"><img src="images/profile2.png">                    
+                            <input type="radio" name="picture" value="profile3"><img src="images/profile3.png">
+                            <br>                            
+                            <input type="radio" name="picture" value="profile4"><img src="images/profile4.png">
+                            <input type="radio" name="picture" value="profile5"><img src="images/profile5.png">
+                            <input type="radio" name="picture" value="profile6"><img src="images/profile6.png">
+                        </span></td>
+                    </tr>                    
+                    <tr>
+                        <input type="hidden" name="action" value="register">
+                        <td colspan="2"><input type="submit" name="submit" value="Register"></td>
+                    </tr>                 
+                    <div>
+                       
+                    </div>
+                </form>
+                </table>
+                </div>
+            </section>
+            
+            <!-- Start the page's side panel -->
+            <section class="side"> 
+                <!-- start of error notification -->  
+                <div class="error">
+                    <div class="error">
+                        All inputs are required. Please fix the following:
+                        <ul>
+                            <li>Error input 1</li>
+                            <li>Error input 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+<!-- Start the page's footer -->            
+        </article>
+    </body>
+
+</html>

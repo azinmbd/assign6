@@ -1,0 +1,228 @@
+html{
+    background-color: rgb(54, 54, 54);
+}
+body{
+    background-color: white;
+    border: 1px solid black;
+    display: table;
+    min-width: 1100px;
+    width: 70%;
+    margin: auto;
+    min-height: 800px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+article{
+    padding: 0 5px;
+    display: grid;
+    grid-template-columns: 65% 35%; 
+    grid-template-rows: fr;              
+}
+
+section{
+    padding: 0 10px;
+}
+section.main{
+    grid-row:1/2;
+    grid-column: 1/2;
+    border-right: 1px dotted black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+
+section.main > div{
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 65%;
+    align-items: baseline;
+}
+section.side{
+    grid-row:1/2;
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.detail td{
+    vertical-align: top;
+    width: 50%;
+}
+
+section.main2 > div{
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 40%;
+}
+
+section.side > div{
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%;
+}
+
+form{        
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+form > div{    
+    display: flex;        
+    flex: 1 1 200px;
+    margin: 2px;
+}
+form > div >*{
+    flex: 1 1 100px;
+    flex-wrap: row wrap;
+    
+}
+div.error{
+    padding: 10px;
+    order: 0;
+}
+div.detail{
+    order:1;
+}
+div.data{
+    order:3;
+    align-self: baseline;
+}
+
+div.login, div.logout{
+    order: 0;
+}
+
+div.add{
+    order: 1;
+}
+
+h1{
+    line-height: 1.5em;
+    font-size: 2em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+}
+table{
+    
+    border-collapse: collapse;
+    padding: 5px;
+    width: 100%;
+}
+td, th{
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(126, 126, 126);
+    padding: 5px;
+    text-align: left;
+}
+th{
+    padding: 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+
+td{
+    font-size: 0.8em;
+    padding: 5px;
+    line-height: 1.4em;
+}
+
+thead{
+    background-color: teal;
+    font-size: bigger;
+    line-height: 1.5em;
+    
+}
+.evenRow{
+    background-color: ghostwhite;
+}
+input{
+    margin-bottom: 5px;
+    line-height: 1.2em;
+}
+input[type="submit"]{                
+    padding: 5px;
+    min-width: 50%;
+}
+
+.delete{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #D70040;
+    color: white;
+}
+
+.delete a{
+    color:white;
+}
+
+.detail{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #e6a73a;
+    color: white;
+}
+
+.error ul{
+    margin: 5px;
+    
+}
+.error{
+    padding: 2px;
+    background-color: rgb(234, 190, 197);
+    color: rgb(54, 54, 54);
+    width: 99%;
+    align-self: baseline;
+}
+
+input{
+    padding: 2px;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+/*
+span img{
+    width:60px;
+}*/
+
+span img{
+    min-width: 60px;
+    max-width: 100px;
+    width:40%;
+}
+input[type="submit"]{
+    background-color: teal;
+    color:white;
+}
+
+table a{
+    text-decoration: none;
+    
+    
+}
+.delete, .detail{
+    box-shadow: 2px 2px 2px gray;
+}
+
+form>div>img{
+    flex: 1 1 25px;
+}
+
+div.logout img{
+    width: 100%;
+}
+
+td.img{
+    width:25%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="submit"], select{                    
+    margin-bottom: 2px;
+    width: 100%;
+}
